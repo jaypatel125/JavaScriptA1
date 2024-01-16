@@ -1,0 +1,82 @@
+/*Jay Patel, 000881881*/
+/*css file for assignment 1*/
+
+.animation {
+            
+    animation-name: square;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 21px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    }
+
+@keyframes square {
+    0% {
+        background-color: beige;
+        width: 500px;
+        color: black;
+    }
+
+    50% {
+        background-color: gray;
+        width: 400px;
+        color:whitesmoke;
+        
+    }
+
+    100% {
+        background-color:black;
+        width: 300px;
+        color: white;
+    }
+    }
+body{background-image: url(image/sandpaper.jpg);}
+
+nav {margin-bottom:20px ;
+    border-bottom: 1px solid lightgray;
+    }
+
+.navc li:hover{font-weight: bold;
+text-decoration: underline;
+}
+
+.poem{text-align: center;
+    margin-bottom: 35px;
+    }
+
+.lineheight{line-height: 7px;}
+
+.imagecenter{text-align: center;}
+
+
+.cite{font-style: italic;
+    text-align: center;
+    padding-left: 260px;}
+
+.paragraph{padding: 25px;
+line-height: 20px;}
+
+a{text-decoration: none;}
+
+footer{text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    }
+
+img{border: 2px solid darkgrey;
+margin: 20px;}
